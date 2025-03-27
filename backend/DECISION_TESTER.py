@@ -2,7 +2,7 @@ import yfinance as yf
 import google.generativeai as genai
 
 # Configure Gemini AI (Replace with your actual API key)
-genai.configure(api_key="AIzaSyD56dsX0PNvHktW7jscZn17ro438S7Tpgw")
+genai.configure(api_key="")
 
 def get_stock_analysis(ticker, quantity, current_holdings, investor_type, action, buy_month=None, buy_year=None, stop_loss=None, target_price=None):
     """Fetch stock data, analyze trade decision, and return AI insights."""
