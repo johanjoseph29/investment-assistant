@@ -2,7 +2,7 @@ import yfinance as yf
 import google.generativeai as genai
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyDKMquwq7E8a9SX1eStl_02Rz2cBdlyKUU")
+genai.configure(api_key="")
 
 def get_stock_data(ticker, period="6mo"):
     stock = yf.Ticker(ticker)
