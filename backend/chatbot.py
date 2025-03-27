@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Configure Gemini API (Directly set API key)
-GEMINI_API_KEY = "AIzaSyD56dsX0PNvHktW7jscZn17ro438S7Tpgw"
+GEMINI_API_KEY = ""
 genai.configure(api_key=GEMINI_API_KEY)
 
 def get_finance_response(user_message):
