@@ -1,0 +1,8 @@
+flask
+google-generativeai
+requests
+yahoo_fin
+numpy
+pandas
+scikit-learn
+seaborn
