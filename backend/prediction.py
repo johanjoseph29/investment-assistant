@@ -3,7 +3,7 @@ import google.generativeai as genai
 import pandas as pd
 
 # Configure Gemini AI (Replace with your actual API key)
-genai.configure(api_key="AIzaSyDKMquwq7E8a9SX1eStl_02Rz2cBdlyKUU")
+genai.configure(api_key="")
 
 def fetch_stock_data(ticker):
     """Fetch stock data & calculate indicators."""
